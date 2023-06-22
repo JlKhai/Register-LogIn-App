@@ -1,3 +1,4 @@
+import Contactme from '../components/Contactme'
 import Navbar from '../components/Navbar'
 import Cookies from 'js-cookie'
 
@@ -17,6 +18,7 @@ const Dashboard = () => {
           Thank You for your visit.
         </p>
       </div>
+      <Contactme />
     </>
   )
 }
