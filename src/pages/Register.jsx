@@ -82,7 +82,7 @@ const Register = () => {
           <div className="mt-3">
             <button
               type="submit"
-              className=" select-none  px-6 py-2 bg-indigo-700 hover:bg-indigo-600 text-white w-[100%]"
+              className=" select-none  px-6 py-2 bg-indigo-700 hover:bg-indigo-600 transition ease-in duration-200 rounded-full text-white w-[100%]"
             >
               {isLoading ? (
                 <Loader

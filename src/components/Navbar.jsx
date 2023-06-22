@@ -46,7 +46,7 @@ const Navbar = () => {
         <h2 className=" text-sm text-white ">page</h2>
       </div>
       <Menu
-        className="bg-gray-200 hover:bg-white rounded-full w-[50px] h-[50px] p-2"
+        className="bg-gray-200 hover:bg-white transition ease-in duration-200 rounded-full w-[50px] h-[50px] p-2"
         shadow="md"
         width={200}
       >
@@ -65,7 +65,7 @@ const Navbar = () => {
 
           <Menu.Label
             onClick={logoutHandler}
-            className="cursor-pointer select-none text-indigo-600 hover:text-indigo-400"
+            className="cursor-pointer select-none text-indigo-600 hover:text-indigo-400 transition ease-in duration-200"
           >
             LogOut
           </Menu.Label>
